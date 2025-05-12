@@ -1,0 +1,30 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+input {
+  border: 2px solid;
+  border-color: black;
+  background-color: cornsilk;
+}
+
+#inp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#enter {
+  width: 30wv;
+  max-width: 400px;
+}
